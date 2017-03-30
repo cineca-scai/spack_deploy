@@ -1,0 +1,19 @@
+packages:
+  openssl:
+    version: [1.0.2j]
+  qt:
+    compiler: [gcc@4.8.5]
+    variants: +examples+mesa
+    version: [4.8.6, 5.7.0]
+  mesa:
+    compiler: [gcc@4.8.5]
+    variants: +gallium
+  pango:
+    variants: +X
+  gtkplus:
+    variants: +X
+  cairo:
+    variants: +X
+  all:
+    compiler: [gcc@4.8.5, gcc@6.1.0]
+

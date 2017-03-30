@@ -1,0 +1,15 @@
+compilers:
+- compiler:
+    environment: {}
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc: /marconi/prod/opt/compilers/gnu/6.1.0/none/bin/gcc
+      cxx: /marconi/prod/opt/compilers/gnu/6.1.0/none/bin/g++
+      f77: /marconi/prod/opt/compilers/gnu/6.1.0/none/bin/gfortran
+      fc: /marconi/prod/opt/compilers/gnu/6.1.0/none/bin/gfortran
+    extra_rpaths:
+    - /cineca/prod/opt/compilers/gnu/6.1.0/none/lib64
+    spec: gcc@6.1.0
+

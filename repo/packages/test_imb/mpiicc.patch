@@ -1,0 +1,10 @@
+--- a/src/make_ict       2016-05-17 19:15:58.114310956 +0200
++++ b/src/make_ict    2016-05-17 19:16:51.284307877 +0200
+@@ -1,6 +1,6 @@
+ LIB_PATH    =
+ LIBS        =
+-CC          = mpiicc 
++CC          = mpicc 
+ ifeq (,$(shell which ${CC}))
+ $(error ${CC} is not defined through the PATH environment variable setting. Please try sourcing an Intel(r) Cluster Tools script file such as "mpivars.[c]sh" or "ictvars.[c]sh")
+ endif
